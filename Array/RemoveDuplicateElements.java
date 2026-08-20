@@ -15,6 +15,7 @@ class RemoveDuplicateElements {
                 k++;
             }
         }
+        System.out.println(Arrays.toString(nums));
         return k;
     }
 
