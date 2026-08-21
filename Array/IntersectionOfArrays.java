@@ -22,9 +22,7 @@ public class IntersectionOfArrays {
         int k = 0;
         while (i < n && j < m) {
             if (nums1[i] == nums2[j]) {
-                if (k == 0 || temp[k - 1] != nums1[i]) {
-                    temp[k++] = nums1[i];
-                }
+                temp[k++] = nums1[i];
                 i++;
                 j++;
             } else if (nums1[i] < nums2[j]) {
@@ -37,9 +35,9 @@ public class IntersectionOfArrays {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4, 7 };
+        int[] arr = { 1, 2, 3, 4, 7, 7 };
 
-        int[] nums = { 1, 2, 5, 7, 9 };
+        int[] nums = { 1, 2, 5, 7, 7, 9 };
 
         System.out.println(Arrays.toString(intersection(arr, nums)));
     }
