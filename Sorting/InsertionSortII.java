@@ -12,10 +12,11 @@ public class InsertionSortII {
                 j--;
             }
         }
+
         return nums;
     }
 
-    public static void main() {
+    public static void main(String[] args) {
 
         int[] arr = { 10, 44, 23, 9, 71, 32, 9 };
         System.out.println(Arrays.toString(insertionSort(arr)));
