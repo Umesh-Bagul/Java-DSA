@@ -1,4 +1,3 @@
-package Array;
 
 public class MostConsecutiveOnes {
     public static int mostConsecutiveOnes(int[] arr) {

@@ -1,4 +1,3 @@
-package Array;
 
 import java.util.Arrays;
 
@@ -13,7 +12,7 @@ public class RemoveElement {
                 k++;
             }
         }
-        return nums;
+        return Arrays.copyOf(nums, k);
     }
 
     public static void main(String[] args) {

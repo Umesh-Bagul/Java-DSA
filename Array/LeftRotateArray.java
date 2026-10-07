@@ -1,4 +1,3 @@
-package Array;
 
 public class LeftRotateArray {
     public static void leftRotateArray(int[] arr) {
