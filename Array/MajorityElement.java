@@ -1,4 +1,3 @@
-package Array;
 
 public class MajorityElement {
     public static int majorityElement(int[] arr) {
